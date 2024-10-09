@@ -20,7 +20,25 @@ these are mainn points
 // "" = false
 // "atif"= true         main ponts
 
-let point = 33
-let stringNumber = String(point)
-console.log(typeof stringNumber)
-console.log(stringNumber)
+// let point = 33
+// let stringNumber = String(point)
+// console.log(typeof stringNumber)
+// console.log(stringNumber)
+
+// stack(primitive)  heap(non-permitive)
+ 
+let myname = "atif"
+
+let anothername = myname
+anothername = "atifmumtaz"
+console.log(myname)
+console.log(anothername)
+
+let userone ={
+    email: "atifmumtaz455@gmail.com",
+    password: "am383455"
+}
+let usertwo = userone
+usertwo.email = "ali778811@gmail.com"
+console.log(userone.email)
+console.log(usertwo.email)
