@@ -15,6 +15,7 @@ arr.shift()
 // console.log(arr);
 // console.log(newarr.join());
 const arr3 = [1,2,3,4,5,6]
+console.log(arr3)
 const newarr = arr3.slice(1,3)
 console.log("A", arr3)
 console.log(newarr)
