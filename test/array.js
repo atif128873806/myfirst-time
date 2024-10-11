@@ -25,3 +25,7 @@ console.log("B",  arr3)
 console.log(mynr);
 
 
+
+
+
+
