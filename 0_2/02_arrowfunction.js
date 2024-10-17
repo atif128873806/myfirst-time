@@ -17,5 +17,13 @@ user.name="asad"
 // const chai = (num1, num2) =>  num1+num2
 const chai = (num1, num2) =>  (num1+num2)
 
-console.log(`The sum of two number is=${chai(6,8)}`)
-
+// console.log(`The sum of two number is=${chai(6,8)}`)
+// IIEF stand for immdeiately invoked expression
+( function code(){
+    console.log("DB CONNECTED");
+}
+)();
+( (name) => {
+console.log(`DB CONNECTED ${name}`);
+}
+)("Atif");
